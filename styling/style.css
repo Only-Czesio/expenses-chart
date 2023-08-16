@@ -45,18 +45,23 @@ body {
         border-radius: 10px;
         margin-top: 1rem;
     }
-    /* .header {
-        font-family: 'DM Sans', sans-serif;
-        font-weight: bold;
-        font-size: 24px;
-        margin: 15px;
-    } */
-    /* .weekdays {
-        display: grid;
-        grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
-        grid-template-rows: 10% 90%;
-        width: 375px - 1rem;
-        height: 350px;
-        margin-left: 1rem;
-    } */
+    caption .header {
+        margin-top: 1rem;
+    }
+    #my-chart.column {
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+    th {
+        color: grey;
+    }
+    td {
+        background-color: hsl(10, 79%, 65%) !important;
+        border-radius: 5px;
+        width: 35px;
+    }
+    .currentDayClass {
+        background-color: hsl(186, 34%, 60%) !important;
+    }
 }
