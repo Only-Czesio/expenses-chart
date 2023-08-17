@@ -29,7 +29,7 @@ const colorCurrentDay = () => {
 };
 const readData = () => {
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[0].amount);
