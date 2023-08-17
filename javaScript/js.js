@@ -49,7 +49,7 @@ const readData = () => {
     console.error("error reading data.json", error);
   }
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[2].amount);
@@ -59,7 +59,7 @@ const readData = () => {
     console.error("error reading data.json", error);
   }
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[3].amount);
@@ -69,7 +69,7 @@ const readData = () => {
     console.error("error reading data.json", error);
   }
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[4].amount);
@@ -79,7 +79,7 @@ const readData = () => {
     console.error("error reading data.json", error);
   }
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[5].amount);
@@ -89,7 +89,7 @@ const readData = () => {
     console.error("error reading data.json", error);
   }
   try {
-    fetch("../data/data.json")
+    fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data[6].amount);
