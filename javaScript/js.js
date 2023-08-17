@@ -25,7 +25,7 @@ const colorCurrentDay = () => {
 };
 const readData = () => {
   const requests = [0, 1, 2, 3, 4, 5, 6].map((i) => {
-    return fetch("../data/data.json")
+    return fetch("data/data.json")
       .then((response) => response.json())
       .then((data) => {
         sum += data[i].amount;
